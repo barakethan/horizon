@@ -75,20 +75,6 @@
     "dist/horizon-core-dev.js.map",
     "lib/*"
   ],
-  "_babel": {
-    "presets": [
-      "es2015-loose",
-      {
-        "plugins": [
-          [
-            "transform-runtime",
-            {
-              "polyfill": false
-            }
-          ]
-        ]
-      }
-    ],
     "env": {
       "test": {
         "plugins": [
